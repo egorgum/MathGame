@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".presentation.SelectFragment"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_a_level"
+            android:layout_margin="16dp"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/levelEasy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/easy"
+            android:backgroundTint="@color/green"
+            android:layout_marginBottom="16dp"/>
+        <Button
+            android:id="@+id/levelNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/normal"
+            android:backgroundTint="@color/yellow"
+            android:layout_marginBottom="16dp"/>
+        <Button
+            android:id="@+id/levelHurd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:text="@string/hurd"
+            android:layout_marginBottom="16dp"/>
+        <Button
+            android:id="@+id/levelTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/test"
+            android:layout_marginBottom="16dp"/>
+
+
+    </LinearLayout>
+</layout>
